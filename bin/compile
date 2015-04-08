@@ -10,6 +10,9 @@ BIN_DIR=$(cd $(dirname $0); pwd) # absolute path
 BUILD_DIR=$1
 CACHE_DIR=$2
 
+ls -l $BUILD_DIR
+ls -l $CACHE_DIR
+
 mkdir -p $BUILD_DIR
 cd $BUILD_DIR
 
