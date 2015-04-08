@@ -13,8 +13,13 @@ CACHE_DIR=$2
 ls -l $BUILD_DIR
 ls -l $CACHE_DIR
 
-mkdir -p $BUILD_DIR
 cd $BUILD_DIR
+jar cmvf META-INF/MANIFEST.MF httpEcho.jar  *.class
+\rm *.class
+\rm -rf META-INF
+
+#mkdir -p $BUILD_DIR
+#cd $BUILD_DIR
 
 # Install JDL 1.8.0
 mkdir jdk
