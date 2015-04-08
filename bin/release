@@ -9,5 +9,5 @@ config_vars:
   JAVA_HOME: /home/vcap/app/jdk
   JRE_HOME: /home/vcap/app/jdk
 default_process_types:
-  web: /home/vcap/app/jdk/bin/java -Dhttp.port=$PORT -jar 
+  web: /home/vcap/app/jdk/bin/java -Dhttp.port=$PORT -jar /home/vcap/app/httpEcho.jar
 EOF
