@@ -30,7 +30,7 @@ tar zxf openjdk-1.8.0_40.tar.gz
 #\rm apache-tomcat-7.0.59.tar.gz
 #mv apache-tomcat-7.0.59 tomcat
 
-ls -l $BUILD_DIR
+ls -l $BUILD_DIR/jdk
 
 export JAVA_HOME=$BUILD_DIR/jdk
 $JAVA_HOME/bin/jar cmvf META-INF/MANIFEST.MF httpEcho.jar  *.class
