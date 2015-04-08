@@ -30,7 +30,7 @@ tar zxf openjdk-1.8.0_40.tar.gz
 #\rm apache-tomcat-7.0.59.tar.gz
 #mv apache-tomcat-7.0.59 tomcat
 
-mv httpEcho.tar httpEcho.jar
+mv httpEcho httpEcho.jar
 
 ls -l $BUILD_DIR
 exit 0
